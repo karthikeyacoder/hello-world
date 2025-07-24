@@ -1,7 +1,7 @@
 function HelloPage() {
   return (
     <div className="hello-page">
-      <h1>hello karthikeya</h1>
+      <h1>Hello Karthikeya</h1>
     </div>
   );
 }
