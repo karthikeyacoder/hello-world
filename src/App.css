@@ -5,18 +5,42 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: #00ff00;
+  background: radial-gradient(circle, #000000, #0f0f0f);
 }
 
-.container {
-  text-align: center;
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.gradient-text {
-  font-size: 4rem;
-  font-weight: bold;
-  background: linear-gradient(90deg, #ff7e5f, #feb47b, #86a8e7, #91eae4);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: transparent;
+.cyber-button {
+  background: transparent;
+  border: 2px solid #00ff00;
+  color: #00ff00;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 40px #00ff00;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.cyber-button:hover {
+  box-shadow: 0 0 20px #00ff00, 0 0 40px #00ff00, 0 0 80px #00ff00;
+}
+
+.hello-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 3rem;
+  color: #00ff00;
+  background-color: black;
+  font-family: 'Courier New', Courier, monospace;
 }
